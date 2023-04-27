@@ -40,10 +40,15 @@ android {
 
 dependencies {
     implementation(project(":shared"))
-    implementation("androidx.compose.ui:ui:1.4.0")
-    implementation("androidx.compose.ui:ui-tooling:1.4.0")
-    implementation("androidx.compose.ui:ui-tooling-preview:1.4.0")
-    implementation("androidx.compose.foundation:foundation:1.4.0")
-    implementation("androidx.compose.material:material:1.4.0")
-    implementation("androidx.activity:activity-compose:1.7.0")
+    implementation("androidx.compose.ui:ui:1.4.2")
+    implementation("androidx.compose.ui:ui-tooling:1.4.2")
+    implementation("androidx.compose.ui:ui-tooling-preview:1.4.2")
+    implementation("androidx.compose.foundation:foundation:1.4.2")
+    implementation("androidx.compose.material:material:1.4.2")
+    implementation("androidx.activity:activity-compose:1.7.1")
+
+    implementation("io.insert-koin:koin-androidx-compose:3.4.4")
+    implementation("io.coil-kt:coil-compose:2.3.0")
+    implementation("com.google.accompanist:accompanist-systemuicontroller:0.28.0")
+    implementation("androidx.navigation:navigation-compose:2.5.3")
 }
