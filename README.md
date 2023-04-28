@@ -41,9 +41,11 @@ It fetch free movie data from [TMDB](https://www.themoviedb.org/). App uses the 
 - [Kotlin](kotlinlang.org) : Programming language
 - [Kotlin Multiplatform](https://kotlinlang.org/docs/multiplatform.html) : To host the common bussiness logic of Android and iOS app.
 - [Jetpack Compose](https://developer.android.com/jetpack/compose) : Android App UI built using Jetpack Compose.
-- [Android Navigation](https://developer.android.com/jetpack/compose/navigation): Navigation framework for Android
+- [Android Navigation](https://developer.android.com/jetpack/compose/navigation): Navigation framework for Android.
 - [Swift UI](https://developer.apple.com/xcode/swiftui/) : iOS App UI built using Swift UI.
-- [iOS Navigation](https://developer.apple.com/documentation/swiftui/navigationstack) : Navigation framework for iOS
+- [iOS Navigation](https://developer.apple.com/documentation/swiftui/navigationstack) : Navigation framework for iOS.
+- [DI](https://insert-koin.io/) : Koin used for Dependency Injection.
+- [Networking](https://ktor.io/) : Ktor used for network calls.
 
 
 ## Project structure
